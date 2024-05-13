@@ -14,6 +14,7 @@ import NSNLogo from "../images/logos/nsn.svg";
 import ParabolLogo from "../images/logos/parabol.svg";
 import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
+import MetaLogo from "../images/logos/meta.svg";
 import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
@@ -27,8 +28,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/London",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
-  summary:
-    "As an innovative Full Stack Developer with a knack for blockchain and cross-platform applications, I've successfully developed and managed high-impact projects. With over 3 years of experience, my expertise spans a vast array of technologies including JavaScript, TypeScript, Python, Cosmos SDK and Flutter. I excel in leading and collaborating within diverse teams, consistently pushing the boundaries of software development to deliver exceptional, user-centric solutions.",
+  summary: "I press keys on the keyboard.",
   avatarUrl: "https://avatars.githubusercontent.com/u/69629296?v=4",
   personalWebsiteUrl: "https://ahmetomer.me",
   contact: {
@@ -79,13 +79,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Meta",
+      link: "https://about.meta.com/",
+      badges: ["London"],
+      title: "Business Engineer",
+      logo: MetaLogo,
+      start: "2024",
+      end: "Now",
+      description:
+        "Design, plan and implement product integrations for Meta apps like Facebook, Instagram, and others with external clients",
+    },
+    {
       company: "Millicent Labs",
       link: "https://www.millicent.io",
       badges: ["London"],
       title: "Full Stack Developer",
       logo: ClevertechLogo,
       start: "2022",
-      end: "Now",
+      end: "2024",
       description:
         "Led blockchain development, implemented cryptocurrency payment applications, and contributed to various software projects. Technologies: Java, Python, React, Blockchain",
     },
@@ -99,7 +110,7 @@ export const RESUME_DATA = {
       end: "2022",
       description:
         "Assisted in teaching computer science courses, engaged in research projects including a cryptographic suite for IoT devices. Technologies: C++, Python, Cryptography",
-    }
+    },
   ],
   skills: [
     "Javascript",
@@ -132,49 +143,92 @@ export const RESUME_DATA = {
     "MongoDB",
     "MySQL",
     "Selenium",
-    "Nginx"
-],
+    "Nginx",
+  ],
 
-projects: [
-  {
-    title: "UKVisaTimeline",
-    techStack: ["SvelteKit", "TypeScript", "Pico.css", "Pocketbase", "Vercel"],
-    description: "A platform simplifying visa application processes through timeline tracking and insights, with a responsive and user-friendly interface.",
-    logo: ClevertechLogo,
-    link: {
-      label: "ukvisatimeline.com",
-      href: "https://ukvisatimeline.com/",
+  projects: [
+    {
+      title: "Muallim",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Firebase",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+      description:
+        "AI lecture assistant for teachers, providing real-time feedback and insights on student engagement and performance.",
+      logo: ClevertechLogo,
+      link: {
+        label: "muallim.tech",
+        href: "https://muallim.tech/",
+      },
     },
-  },
-  {
-    title: "Nakit",
-    techStack: ["Cosmos SDK", "IBC", "Flutter", "TEE", "SE", "QR codes", "NFC", "Bluetooth"],
-    description: "Decentralized blockchain for offline transactions with Zero-Knowledge Proofs and a Flutter-based mobile app for transaction verification and offline authorization.",
-    logo: ClevertechLogo,
-    link: {
-      label: "nakit.dev",
-      href: "",
+    {
+      title: "UKVisaTimeline",
+      techStack: [
+        "SvelteKit",
+        "TypeScript",
+        "Pico.css",
+        "Pocketbase",
+        "Vercel",
+      ],
+      description:
+        "A platform simplifying visa application processes through timeline tracking and insights, with a responsive and user-friendly interface.",
+      logo: ClevertechLogo,
+      link: {
+        label: "ukvisatimeline.com",
+        href: "https://ukvisatimeline.com/",
+      },
     },
-  },
-  {
-    title: "Cekmece",
-    techStack: ["React.js", "Next.js", "Node.js", "Flutter", "mySQL", "Scrum"],
-    description: "E-Commerce solution developed with a 5-member team, using a range of technologies and Scrum methodologies for iterative development.",
-    logo: ClevertechLogo,
-    link: {
-      label: "cekmece.com",
-      href: "",
+    {
+      title: "Nakit",
+      techStack: [
+        "Cosmos SDK",
+        "IBC",
+        "Flutter",
+        "TEE",
+        "SE",
+        "QR codes",
+        "NFC",
+        "Bluetooth",
+      ],
+      description:
+        "Decentralized blockchain for offline transactions with Zero-Knowledge Proofs and a Flutter-based mobile app for transaction verification and offline authorization.",
+      logo: ClevertechLogo,
+      link: {
+        label: "nakit.dev",
+        href: "",
+      },
     },
-  },
-  {
-    title: "suEmpty",
-    techStack: ["Flutter"],
-    description: "Mobile application for finding empty classrooms at Sabanci University, featuring customizable filters for day, time, and faculty.",
-    logo: ClevertechLogo,
-    link: {
-      label: "suempty.com",
-      href: "",
+    {
+      title: "Cekmece",
+      techStack: [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Flutter",
+        "mySQL",
+        "Scrum",
+      ],
+      description:
+        "E-Commerce solution developed with a 5-member team, using a range of technologies and Scrum methodologies for iterative development.",
+      logo: ClevertechLogo,
+      link: {
+        label: "cekmece.com",
+        href: "",
+      },
     },
-  }
-],
+    {
+      title: "suEmpty",
+      techStack: ["Flutter"],
+      description:
+        "Mobile application for finding empty classrooms at Sabanci University, featuring customizable filters for day, time, and faculty.",
+      logo: ClevertechLogo,
+      link: {
+        label: "suempty.com",
+        href: "",
+      },
+    },
+  ],
 } as const;
