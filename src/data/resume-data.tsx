@@ -165,6 +165,22 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Boring Counter",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+      description: "ur gonna love this one",
+      logo: ClevertechLogo,
+      link: {
+        label: "boringcounter.com",
+        href: "https://boringcounter.com/",
+      },
+    },
+    {
       title: "UKVisaTimeline",
       techStack: [
         "SvelteKit",
