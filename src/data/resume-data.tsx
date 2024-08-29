@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ahmetomerkayabasi/",
+        url: "https://www.linkedin.com/in/omerkayabasi/",
         icon: LinkedInIcon,
       },
       {
