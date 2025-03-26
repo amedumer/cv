@@ -161,7 +161,7 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       link: {
         label: "muallim.tech",
-        href: "https://muallim.tech/",
+        href: "https://muallim-eight.vercel.app/",
       },
     },
     {
